@@ -1,13 +1,13 @@
 body {
   font-size: 17px;
-  line-height: 1;
+  line-height: 17px;
   color: #000000;
   font-weight: normal;
   font-family: "Cuprum", "Arial", sans-serif;
   background-color: #ffffff;
 }
 
-h1 {
+.catalog-title {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
@@ -16,7 +16,7 @@ h1 {
   background-color: #f2f6f8;
 }
 
-h2 {
+.promo-slider-title {
   font-size: 36px;
   line-height: 30px;
   color: #ffffff;
@@ -26,7 +26,7 @@ h2 {
   background-color: #aaaaaa;
 }
 
-h3 {
+.services-slider-title {
   font-size: 36px;
   line-height: 24px;
   color: #32425c;
@@ -34,56 +34,10 @@ h3 {
   text-transform: uppercase;
 }
 
-h4 {
+.about-company-title {
   font-size: 30px;
   line-height: 24px;
   color: #000000;
   font-weight: normal;
   text-transform: uppercase;
-}
-
-p {
-  font-size: 13px;
-  line-height: 24px;
-  color: #000000;
-  font-weight: normal;
-  font-family: "PT Sans Regular", "Arial", sans-serif;
-}
-
-.header-logo {
-  display: inline-block;
-  width: 220px;
-
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: normal;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 8px;
-  border-bottom: 5px solid #b52933;
-
-  background-color: #ee3643;
-
-}
-
-.footer-logo {
-  display: inline-block;
-  width: 220px;
-
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: normal;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 18px;
-  padding-bottom: 15px;
-  border-bottom: 5px solid #b52933;
-
-  background-color: #ee3643;
-
 }

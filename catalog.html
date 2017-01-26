@@ -11,8 +11,8 @@
         <section class="header-top">
           <a class="header-logo" href="index.html">Техномарт</a>
           <form class="header-search" method="get">
-            <input class="search-text" type="text" placeholder="Поиск:">
-            <input class="search-enter"type="submit">
+            <input class="search-text" type="text" id="search-row">
+            <label for="search-row">Поиск:</label>
           </form>
           <a class="header-bookmarks" href="#">Закладки:</a>
           <a class="header-cart" href="#">Корзина:</a>
@@ -20,13 +20,13 @@
         </section>
         <section class="header-middle">
           <div class="header-about">
-            <em>Интернет-магазин<br>
+            <p>Интернет-магазин<br>
                 строительных материалов<br>
-                и инструментов для ремонта</em>
+                и инструментов для ремонта</p>
           </div>
           <div class="header-contacts">
-            <span class="contacts-phone">+7 (812) 555-05-55</span>
-            <span class="contacts-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+            <p class="contacts-phone">+7 (812) 555-05-55</p>
+            <p class="contacts-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
           <div class="header-userblock">
             <a class="header-btn-user" href="#">Равшан Джамшутович</a>
@@ -55,19 +55,19 @@
       <div class="breadcrumbs">
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-crumb"><a class="breadcrumbs-link" href="index.html">Главная</a></li>
-          <li class="breadcrumbs-crumb"><a class="breadcrumbs-link" href="#"></a>Каталог</li>
-          <li class="breadcrumbs-crumb"><a class="breadcrumbs-link" href="#"></a>Инструмент</li>
-          <li class="breadcrumbs-crumb"><a class="breadcrumbs-link"></a>Перфораторы</li>
+          <li class="breadcrumbs-crumb"><a class="breadcrumbs-link" href="#">Каталог</a></li>
+          <li class="breadcrumbs-crumb"><a class="breadcrumbs-link" href="#">Инструмент</a></li>
+          <li class="breadcrumbs-crumb"><a class="breadcrumbs-link">Перфораторы</a></li>
         </ul>
       </div>
       <h1 class="catalog-title">Перфораторы</h1>
       <form class="catalog-filter" method="get">
         <span class="catalog-filter-title">Фильтр:</span>
-        <span class="catalog-filter-cost">Цена:</span>
+        <h3 class="catalog-filter-cost">Цена:</h3>
         <input type="range" min="0" max="30000" step="1000" value="25000">
         <input type="number" name="min" min="0" max="29000" step="1000" value="0">
         <input type="number" name="max" min="1000" max="30000" step="1000" value="30000">
-        <span class="catalog-filter-manufacturer">Производители:</span>
+        <h3 class="catalog-filter-manufacturer">Производители:</h3>
         <div class="manufacturer-chek">
           <input type="checkbox" name="manufacturer" id="bosh" value="bosh" checked>
           <label for="bosh">Bosh</label>
@@ -88,7 +88,7 @@
           <input type="checkbox" name="manufacturer" id="hitachi" value="hitachi">
           <label for="bosh">Hitachi</label>
         </div>
-        <span class="catalog-filter-power">Питание:</span>
+        <h3 class="catalog-filter-power">Питание:</h3>
         <div class="power-chek">
           <input type="radio" name="power" id="accumulator" value="accumulator" checked>
           <label for="bosh">Аккумуляторный</label>
@@ -172,7 +172,7 @@
      </nav>
     </section>
     <section class="catalog-about-perforators">
-      <h4 class="about-perforators-title">Пара слов о перфораторах</h4>
+      <h2 class="about-perforators-title">Пара слов о перфораторах</h2>
       <p class="about-perforators-text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
         Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
       </p>
@@ -212,11 +212,11 @@
           </div>
           <div class="footer-contact">
             <span class="footer-contact-title">Обратная связь:</span>
-            <span class="footer-contact-email">mail@htmlacademy.ru</span>
+            <a class="footer-contact-email" href="#">mail@htmlacademy.ru</a>
           </div>
           <div class="footer-designed">
             <span class="footer-designed-title">Разработано —</span>
-            <span class="footer-designed-email">htmlacademy.ru</span>
+            <a class="footer-designed-email" href="#">htmlacademy.ru</a>
           </div>
         </section>
       </div>
