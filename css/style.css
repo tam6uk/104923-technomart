@@ -3,7 +3,7 @@ body {
   line-height: 17px;
   color: #000000;
   font-weight: normal;
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: "Cuprum", "PT Sans", "Arial" sans-serif;
   background-color: #ffffff;
 }
 
@@ -14,13 +14,13 @@ body {
   clear: both;
 }
 
-.catalog-title {
-  font-size: 30px;
-  line-height: 30px;
-  color: #32425c;
-  font-weight: normal;
-  text-transform: uppercase;
-  background-color: #f2f6f8;
+.catalog-title,
+.popular-title {
+font-size: 30px;
+line-height: 30px;
+color: #32425c;
+font-weight: normal;
+text-transform: uppercase;
 }
 
 .promo-slider-title {
@@ -39,8 +39,20 @@ body {
   text-transform: uppercase;
 }
 
+.service-description,
+.about-perforators-text,
+.service-text,
+.services-slider-text,
+.about-company-text,
+.contacts-text {
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: normal;
+  font-family: "PT Sans", "Arial" sans-serif;
+}
+
 .main-header {
-  min-height: 320px;
   background-color: #f1f5f7;
   margin-bottom: 60px;
 }
@@ -48,9 +60,7 @@ body {
 .container {
   width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
   min-height: 320px;
-  outline: 1px dotted black;
 }
 
 .header-top {
@@ -122,7 +132,7 @@ body {
 }
 
 .header-navigation-point {
-  display: inline;
+  display: inline-block;
 }
 
 .main-promo {
@@ -158,7 +168,6 @@ body {
 .promo-discounts {
   width: 300px;
   min-height: 123px;
-  margin-left: 640px;
   float: right;
   background-color: #85d179;
   margin-bottom: 20px;
@@ -176,7 +185,6 @@ body {
   min-height: 266px;
   float: left;
   background-color: grey;
-  margin-top: -143px;
 }
 
 .main-popular-products {
@@ -210,11 +218,11 @@ body {
   min-height: 318px;
 }
 
-.product-block:last-child {
+.main-product-block:last-child {
   margin-right: 0;
 }
 
-.product-block {
+.main-product-block {
   width: 220px;
   min-height: 318px;
   float: left;
@@ -225,7 +233,6 @@ body {
 .main-popular-manufacturer {
   width: 940px;
   margin-bottom: 65px;
-  outline: 1px dotted black;
 }
 
 .manufacturer-block {
@@ -259,17 +266,9 @@ body {
   text-transform: uppercase;
 }
 
-.service-description {
-  font-size: 13px;
-  line-height: 24px;
-  color: #000000;
-  font-weight: normal;
-}
-
 .services-slider {
   width: inherit;
   margin-top: 68px;
-  outline: 1px dotted black;
 }
 
 .main-about {
@@ -281,17 +280,16 @@ body {
   width: 540px;
   min-height: 375px;
   float: left;
-  outline: 1px dotted black;
 }
 
 .main-about-contacts {
   width: 300px;
   min-height: 375px;
   float: right;
-  outline: 1px dotted black;
 }
 
-.about-title {
+.about-title,
+.about-perforators-title {
   font-size: 30px;
   line-height: 24px;
   color: #000000;
@@ -305,7 +303,6 @@ body {
 
 .footer-top {
   margin-bottom: 33px;
-  outline: 1px dotted black;
 }
 
 .footer-logo {
@@ -322,11 +319,7 @@ body {
 
 .top-navigation-point,
 .middle-navigation-point {
-  display: inline;
-}
-
-.footer-middle {
-  outline: 1px dotted black;
+  display: inline-block;
 }
 
 .footer-adress {
@@ -342,32 +335,132 @@ body {
 .footer-bottom {
   min-height: 107px;
   margin-top: 50px;
-  outline: 1px dotted black;
 }
 
 .footer-copywright {
   width: 240px;
   margin-right: 140px;
   float: left;
-  outline: 1px dotted black;
 }
 
 .footer-social {
   width: 240px;
   margin-right: 20px;
   float: left;
-  outline: 1px dotted black;
 }
 
 .footer-contact {
   width: 140px;
   margin-right: 20px;
   float: left;
-  outline: 1px dotted black;
 }
 
 .footer-designed {
   width: 140px;
   float: right;
-  outline: 1px dotted black;
+}
+
+.catalog-header {
+  background-color: #f1f5f7;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs {
+  width: 380px;
+  min-height: 20px;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs-crumb {
+  display: inline-block;
+}
+
+.catalog-title {
+  min-height: 30px;
+  padding: 30px;
+  background-color: #f2f6f8;
+}
+
+.catalog-filter {
+  width: 220px;
+  min-height: 1200px;
+  float: left;
+}
+
+.catalog-filter-title {
+  width: 220px;
+  min-height: 38px;
+  float: left;
+  background-color: #f7f3ec;
+  margin-bottom: 18px;
+}
+
+.catalog-products {
+  width: 700px;
+  float: right;
+}
+
+.catalog-products-sorting {
+  width: 700px;
+  min-height: 38px;
+  margin-bottom: 20px;
+  background-color: #f7f3ec;
+}
+
+.products-sorting-title {
+  width: 90px;
+  min-height: 18px;
+  float: left;
+}
+
+.products-sorting-list {
+  width: 460px;
+  min-height: 18px;
+  float: right;
+}
+
+.products-sorting-sorter {
+  display: inline-block;
+}
+
+.catalog-products-blocks {
+  min-height: 995px;
+  margin-bottom: 22px;
+}
+
+.catalog-product-block {
+  width: 220px;
+  min-height: 318px;
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+.catalog-product-block:nth-child(3),
+.catalog-product-block:nth-child(6),
+.catalog-product-block:nth-child(9) {
+  margin-right: 0;
+}
+
+.catalog-paginator {
+  display: block;
+  float: left;
+  width: 480px;
+  height: 38px;
+}
+
+.pagination-page {
+  display: inline-block;
+}
+
+.catalog-about-perforators {
+  float: right;
+  width: 940px;
+  min-height: 262px;
+  background-color: #f2f6f8;
+}
+
+.about-perforators-title {
+  margin-top: 60px;
 }

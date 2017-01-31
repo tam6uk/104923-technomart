@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт – Перфораторы</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
+    <header class="catalog-header">
       <div class="container">
         <section class="header-top clearfix">
           <a class="header-logo" href="index.html">Техномарт</a>
@@ -36,12 +37,12 @@
             </ul>
           </div>
         </section>
-        <section class="header-bottom clearfix">
+        <section class="header-bottom">
           <nav class="header-navigation">
             <ul class="header-navigation-list">
-              <li class="header-navigation-point"><a class="header-navigation-link" href="#">Главная</a></li>
+              <li class="header-navigation-point"><a class="header-navigation-link" href="index.html">Главная</a></li>
               <li class="header-navigation-point"><a class="header-navigation-link" href="#">Компания</a></li>
-              <li class="header-navigation-point"><a class="header-navigation-link" href="catalog.html">Каталог</a></li>
+              <li class="header-navigation-point"><a class="header-navigation-link" href="#">Каталог</a></li>
               <li class="header-navigation-point"><a class="header-navigation-link" href="#">Новости</a></li>
               <li class="header-navigation-point"><a class="header-navigation-link" href="#">Спецпредложения</a></li>
               <li class="header-navigation-point"><a class="header-navigation-link" href="#">Доставка</a></li>
@@ -51,7 +52,7 @@
         </section>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
       <div class="breadcrumbs">
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-crumb"><a class="breadcrumbs-link" href="index.html">Главная</a></li>
@@ -101,80 +102,81 @@
       </form>
     <section class="catalog-products">
       <div class="catalog-products-sorting">
-        <span class="products-sorting-title">Сортировка</span>
+        <span class="products-sorting-title">Сортировка:</span>
         <ul class="products-sorting-list">
           <li class="products-sorting-sorter"><a class="products-sorting-link" href="#">По цене</a></li>
           <li class="products-sorting-sorter"><a class="products-sorting-link" href="#">По типу</a></li>
           <li class="products-sorting-sorter"><a class="products-sorting-link" href="#">По функционалу</a></li>
         </ul>
       </div>
-      <div class="catalog-products-blocks">
-        <div class="product-block">
+      <div class="catalog-products-blocks clearfix">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-3000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 3000">
           <b class="product-article">Перфоратор BOSCH BFG 3000</b>
           <span class="product-oldcost">22500 Р.</span>
           <a class="product-btn-newcost" href="#">15500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-6000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 6000">
           <b class="product-article">Перфоратор BOSCH BFG 6000</b>
           <span class="product-oldcost">30500 Р.</span>
           <a class="product-btn-newcost" href="#">25500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <a class="product-block-btn-buy">Купить</a>
           <a class="product-block-btn-bookmark">В закладки</a>
           <b class="product-article">Перфоратор BOSCH BFG 2000</b>
           <a class="product-btn-newcost" href="#">12500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-3000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 3000">
           <b class="product-article">Перфоратор BOSCH BFG 3000</b>
           <span class="product-oldcost">22500 Р.</span>
           <a class="product-btn-newcost" href="#">15500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-6000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 6000">
           <b class="product-article">Перфоратор BOSCH BFG 6000</b>
           <span class="product-oldcost">30500 Р.</span>
           <a class="product-btn-newcost" href="#">25500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-2000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 2000">
           <b class="product-article">Перфоратор BOSCH BFG 2000</b>
           <a class="product-btn-newcost" href="#">12500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-3000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 3000">
           <b class="product-article">Перфоратор BOSCH BFG 3000</b>
           <span class="product-oldcost">22500 Р.</span>
           <a class="product-btn-newcost" href="#">15500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-6000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 6000">
           <b class="product-article">Перфоратор BOSCH BFG 6000</b>
           <span class="product-oldcost">30500 Р.</span>
           <a class="product-btn-newcost" href="#">25500 Р.</a>
         </div>
-        <div class="product-block">
+        <div class="catalog-product-block">
           <img class="product-image" src="img/BOSCH-BFG-2000.jpg" width="218" height="175" alt="Перфоратор BOSCH BFG 2000">
           <b class="product-article">Перфоратор BOSCH BFG 2000</b>
           <a class="product-btn-newcost" href="#">12500 Р.</a>
         </div>
       </div>
-     <nav class="catalog-paginator">
-       <ul class="pagination-list">
-         <li class="pagination-page"><a class="pagination-unlink">1</a></li>
-         <li class="pagination-page"><a class="pagination-link" href="#">2</a></li>
-         <li class="pagination-page"><a class="pagination-link" href="#">3</a></li>
-         <li class="pagination-page"><a class="pagination-link" href="#">Следующая</a></li>
-       </ul>
-     </nav>
+      <nav class="catalog-paginator">
+        <ul class="pagination-list">
+          <li class="pagination-page"><a class="pagination-unlink">1</a></li>
+          <li class="pagination-page"><a class="pagination-link" href="#">2</a></li>
+          <li class="pagination-page"><a class="pagination-link" href="#">3</a></li>
+          <li class="pagination-page"><a class="pagination-link" href="#">Следующая</a></li>
+        </ul>
+      </nav>
     </section>
     <section class="catalog-about-perforators">
       <h2 class="about-perforators-title">Пара слов о перфораторах</h2>
-      <p class="about-perforators-text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
-        Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+      <p class="about-perforators-text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. <br>
+        Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. <br>
+        В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
       </p>
     </section>
     </main>
@@ -206,7 +208,7 @@
             </ul>
           </nav>
         </section>
-        <section class="footer-bottom clearfix">
+        <section class="footer-bottom">
           <p class="footer-copywright">
             © 2010–2017 Компания «Техномарт»
             Все права защищены
